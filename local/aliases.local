@@ -1,0 +1,22 @@
+alias untar="tar -zxvf"
+
+# Always enable colored `grep` output
+alias grep="grep --color=auto"
+alias fgrep="fgrep --color=auto"
+alias egrep="egrep --color=auto"
+
+# Launch Google Chrome
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+
+# Randomly generate a password
+alias getpass="openssl rand -base64 20"
+
+# Start a web server easily
+alias webserver="python -m SimpleHTTPServer 8000"
+
+# Get external and internal IP addresses
+alias ipe="curl ipinfo.io/ip"
+alias ipi="ipconfig getifaddr en0"
+
+# Clear the terminal
+alias c="clear"

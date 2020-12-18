@@ -1,0 +1,26 @@
+# fzf is a tool for fuzzy file searching
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+
+# Go
+GOPATH="$HOME/go"
+export GOPATH
+PATH="$GOPATH/bin:$PATH"
+GOROOT="/usr/local/go"
+export GOROOT
+export -U PATH
+
+
+# Java
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+
+
+## Google Cloud stuff
+source <(kubectl completion zsh)
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/albert/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/albert/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/albert/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/albert/google-cloud-sdk/completion.zsh.inc'; fi
+
