@@ -1,0 +1,17 @@
+[user]
+  email = albscui@gmail.com
+  name = Albert
+[alias]
+  st = status
+  ci = commit -v
+  co = checkout
+  pf = push --force-with-lease
+  hist = log --all --graph --decorate --oneline
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = input
+[push]
+  default = current
+[include]
+  path = ~/.gitconfig.local
+
