@@ -6,7 +6,7 @@
   ci = commit -v
   co = checkout
   pf = push --force-with-lease
-  hist = log --all --graph --decorate --oneline
+  hist = log --graph --decorate --oneline --date=relative
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
