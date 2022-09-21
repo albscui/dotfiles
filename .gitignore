@@ -2,4 +2,6 @@ dotfiles.git
 tmp
 venv*
 .vscode
+.*
+!/.gitignore
 
