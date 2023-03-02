@@ -6,7 +6,7 @@
     ci = commit -v
     co = checkout
     pf = push --force-with-lease
-    hist = log --pretty=format:\"%h - %an, %ar : %s\" --graph --decorate
+    hist = log --graph --pretty=oneline --decorate --abbrev-commit
 [core]
     excludesfile = ~/.gitignore
     autocrlf = input
