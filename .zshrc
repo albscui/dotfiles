@@ -101,7 +101,7 @@ plugins=(git zsh-autosuggestions)
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-[[ -f $HOME/.zshrc.local ]] && source $HOME/.zshrc.local
-[[ -f $HOME/.aliases ]] && source $HOME/.aliases
-[[ -f $HOME/.fzf.zsh ]] && source $HOME/.fzf.zsh
+[ -f ~/.zshrc.local ] && source ~/.zshrc.local
+[ -f ~/.aliases ] && source ~/.aliases
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
