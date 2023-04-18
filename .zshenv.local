@@ -1,0 +1,16 @@
+# Golang
+PATH=$PATH:$HOME/sdk/go/bin
+PATH=$PATH:$HOME/go/bin
+PATH=$PATH:/usr/local/go/bin
+PATH=$PATH:/usr/local/protobuf/bin
+export PATH
+
+export WINHOME=/mnt/c/Users/albert
+
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+# support Vagrant + WSL
+export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
+export PATH="$PATH:/mnt/c/Program Files/Oracle/VirtualBox"
